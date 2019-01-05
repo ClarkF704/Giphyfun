@@ -1,0 +1,40 @@
+.headerOne {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 55px;
+    color:darkgoldenrod;
+}
+.buttonArray {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+.headerTwo{
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    color:darkcyan;
+    font-size: 40px;
+}
+.adds{
+    text-align: center;
+}
+.backG{
+    background-color:blueviolet;
+    padding-bottom:5px;
+}
+body{
+    background-color:pink;
+}
+
+img{
+    height: 200px;
+  width: 200px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
