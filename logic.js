@@ -9,7 +9,7 @@ function getData() {
 
     var input = $(this).attr("data-name");
 
-    var xhr = $.get("http://api.giphy.com/v1/gifs/search?q=" + input + "&api_key=PLj8jeRiNydRJ7WcauFcAcatQE52qpAT&limit=10" );
+    var xhr = $.get("https://api.giphy.com/v1/gifs/search?q=" + input + "&api_key=PLj8jeRiNydRJ7WcauFcAcatQE52qpAT&limit=10" );
 
     xhr.done(function (response) {
         console.log("success got data", response);
